@@ -19,16 +19,8 @@ A sleek, dark-themed Spotify-inspired web app built with ❤️ using **HTML, CS
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
 
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-```
-
----
-
-### 2. Install Backend Dependencies
+### 1. Install Backend Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -42,7 +34,7 @@ pip install fastapi uvicorn yt-dlp aiohttp
 
 ---
 
-### 3. Run the Backend Server
+### 2. Run the Backend Server
 
 ```bash
 python main.py
@@ -54,7 +46,7 @@ uvicorn app:app --host 0.0.0.0 --port 8000 --reload
 
 ---
 
-### 4. Start Frontend (Static Server)
+### 3. Start Frontend (Static Server)
 
 ```bash
 python -m http.server 3000
